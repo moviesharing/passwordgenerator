@@ -1,0 +1,65 @@
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Light theme styles */
+body.light-theme {
+    background-color: #fff;
+    color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+	margin-top: 50px;
+    color: #007bff;
+}
+
+/* Styling for the theme toggle div */
+#theme-toggle-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#password {
+    font-size: 20px;
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+
+/* Circular image */
+.admin-image {
+	height: 250px;
+	width: 250px;
+    border-radius: 50%;
+}
