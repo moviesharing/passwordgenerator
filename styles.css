@@ -78,7 +78,7 @@ button {
 
 /* Circular image */
 .admin-image {
-	height: 250px;
-	width: 250px;
+	max-height: 100px;
+	max-width: 100px;
     border-radius: 50%;
 }
